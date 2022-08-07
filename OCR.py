@@ -2,7 +2,7 @@ import pytesseract
 import streamlit as st
 from PIL import Image
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Vedang\AppData\Local\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Vedang\AppData\Local\Tesseract-OCR\tesseract.exe'
 st.title('Extract Text from Images')
 st.markdown('## Optical Character Recognition')
 image = st.file_uploader(label = 'Upload Image',type=['png','jpg','jpeg'])
